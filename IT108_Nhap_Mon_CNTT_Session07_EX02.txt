@@ -1,0 +1,9 @@
+﻿Bài 2 : Xử lý sự cố Website từ Access Log 
+Phần 1: Phân tích
+* Get-ChildItem dùng để liệt kê ra các file và các tệp
+* Câu lệnh Get-ChildItem -Recurse -Filter “404” là dùng để kiếm các tệp và file bên trong có chứa “404” 
+* select-string: dùng để kiếm văn bản, chuỗi chữ.
+
+
+Phần 2: Hoàn thiện
+* select-string “ERROR” access.log
